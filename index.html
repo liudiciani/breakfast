@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- import stylesheet -->
+  <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+  
+  <!-- pull AngularJS file -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+  <!-- pull Routing -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+
+  <!-- import script with JS -->
+  <script src="js/script.js"></script>
+
+
+  
+
+  
+</head>
+
+<!-- init APP -->
+<body ng-app="myApp" >
+
+ 
+  <div class="show-scope-demo">
+    <div class = "headerBox" >
+    </div>
+    <h1>What does your favorite <span id="emphasis">breakfast food</span>
+    say about <span id="cursive">you</span> ?</h1>
+    <h2>Choose your favorite food below!</h2>
+
+
+
+  <div id = "options">
+    <a href="#!pancakes"><img src="http://assets.marthastewart.com/styles/wmax-1500/d16/mh_1006_pancakes/mh_1006_pancakes_horiz.jpg?itok=jKs70oMT"/></a>
+
+
+
+     <a href="#!eggs"><img src="https://s3.amazonaws.com/hoosieragtoday.com/wp-content/uploads/2015/10/bacon-and-eggs.jpg"/></a>
+    
+
+     <a href="#!bagel"><img src="http://img.aws.livestrongcdn.com/ls-article-image-400/cpi.studiod.com/www_livestrong_com/photos.demandstudios.com/getty/article/3/208/450730591_XS.jpg"/></a>
+
+     <a href="#!donuts"><img src="https://s3-media1.fl.yelpcdn.com/bphoto/81_2vgnvq5qtr3g_wxB4zA/o.jpg"/></a>
+
+    <br>
+
+      <a href="#!poptart"><img src="http://www.kailleyskitchen.com/wp-content/uploads/2013/07/DSC_0254-22.jpg"/></a>
+
+
+     <a href="#!omelette"><img src="http://www.cheatsheet.com/wp-content/uploads/2014/08/177939513-e1407510537684.jpg"/></a>
+    
+
+     <a href="#!frenchtoast"><img src="http://www.viral.us/wp-content/uploads/2015/10/Quick-and-Easy-French-Toast_Recipes_1007x545.jpg"/></a>
+
+     <a href="#!coldpizza"><img src="http://pixel.nymag.com/imgs/daily/grub/2016/best-of-new-york/best-pizza-slice-joes.w710.h473.2x.jpg"/></a>
+
+    <br>
+
+
+    <div id = "description">Based on your selection of</div>
+    <div ng-view><br></div>
+
+  </div>
+
+
+  <!-- <div ng-show="showMe" class = "selection">
+
+    <h1>You chose: <span id="cursive">{{header}} </span></h1><br>
+    <p>{{explanation}}</p>
+
+    </div>
+    <a id="bottom">
+    bottom
+    </a>
+    </div> -->
+
+
+
+<!--
+  <div ng-controller="GreetController">
+    Hello {{name}}!
+  </div>
+  <div ng-controller="ListController">
+    <ol>
+      <li ng-repeat="name in names">{{name}}</li>
+    </ol>
+  </div> -->
+</div>
+</body>
+</html>
+
+<!-- 
+Copyright 2017 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+-->

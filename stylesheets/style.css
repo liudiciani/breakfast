@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Crushed');
+
+
+
+body{
+	font-family: 'raleway';
+}
+
+
+h1{
+	font-size: 50px;
+	margin: 0px;
+	}
+
+#cursive{
+	font-family: 'petit formal script';
+}
+
+#emphasis{
+	color: #9B785D;
+}
+
+.headerBox{
+	padding-top: 200px;
+	background-image: url("http://www4.pictures.zimbio.com/mp/LGqFU5M6JsPl.jpg");
+	height: auto;
+	opacity: 0.3;
+}
+
+
+#options{
+	padding-top: 50px;
+	text-align: center;
+}
+
+#options #description{
+	display: inline-block;
+	padding-top: 50px;
+}
+
+
+h2{
+	font-style: italic;
+	color: #bb9e85;
+	font-size: 20px;
+	margin: 0px;
+	font-weight: lighter;
+}
+
+
+img {
+    opacity: 1.0;
+    height: 220px;
+    width: 350px;
+}
+
+img:hover {
+    opacity: 0.4;
+}
+
+p{
+	font-size: 20px;
+	margin: 0px;
+
+}
+
+.selection{
+	color:black;
+	background-color: #f9dbb5;
+	height: 400px;
+	margin-top: 50px;
+	padding-left: 50px;
+
+}
+
+
+
+/*
+Copyright 2017 Google Inc. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/
