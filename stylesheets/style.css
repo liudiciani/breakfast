@@ -24,7 +24,7 @@ h1{
 }
 
 .headerBox{
-	padding-top: 200px;
+	padding-top: 180px;
 	background-image: url("http://www4.pictures.zimbio.com/mp/LGqFU5M6JsPl.jpg");
 	height: auto;
 	opacity: 0.3;
@@ -36,9 +36,10 @@ h1{
 	text-align: center;
 }
 
-#options #description{
+.description{
 	display: inline-block;
 	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 
@@ -53,7 +54,7 @@ h2{
 
 img {
     opacity: 1.0;
-    height: 220px;
+    height: 210px;
     width: 350px;
 }
 
